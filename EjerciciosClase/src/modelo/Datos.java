@@ -78,8 +78,8 @@ public class Datos {
 		return diasSemana;
 	}
 
-	public  void setDiasSemana(String[] diasSemana) {
-		//diasSemana = diasSemana;
-	}
+	/*public  void setDiasSemana(String[] diasSemana) {
+		diasSemana = diasSemana;
+	}*/
 
 }

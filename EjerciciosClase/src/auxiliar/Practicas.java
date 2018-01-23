@@ -313,14 +313,14 @@ public class Practicas {
 	}
 
 	/*public void estadisticaCadena(String cadena) {
-		//int contadorVocales = 0;
-		//int contadorMayusculas = 0;
+		int contadorVocales = 0;
+		int contadorMayusculas = 0;
 		int contadorEspeciales = 0;
 		for (int i = 0; i < cadena.length(); i++) {
 			if (cadena.charAt(i) == 'a' || cadena.charAt(i) == 'e' || cadena.charAt(i) == 'i' || cadena.charAt(i) == 'o'
 					|| cadena.charAt(i) == 'u' || cadena.charAt(i) == 'A' || cadena.charAt(i) == 'E'
 					|| cadena.charAt(i) == 'I' || cadena.charAt(i) == 'O' || cadena.charAt(i) == 'U')
-			//	contadorVocales++;
+				contadorVocales++;
 			if (cadena.charAt(i) >= 'A' && cadena.charAt(i) <= 'Z')
 				contadorMayusculas++;
 			int caracterAscii = cadena.charAt(i);
@@ -329,12 +329,12 @@ public class Practicas {
 					(caracterAscii >= 91) && (caracterAscii <= 96))
 
 				contadorEspeciales++;
-		}
+				}
 		// System.out.println("Hay " + contadorVocales + " vocales en " + cadena);
 		System.out.println("Hay " + contadorEspeciales + " caracteres especiales en " + cadena);
 
-	}
-*/
+	}*/
+
 	public void listaDiasSemana() {
 		Datos datos = new Datos();
 		// String[] diasSemana = { "lunes", "martes", "miercoles", "jueves", "viernes",
