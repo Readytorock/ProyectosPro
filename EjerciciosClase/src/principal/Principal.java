@@ -1,4 +1,4 @@
-/*package principal;
+package principal;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -16,23 +16,23 @@ public class Principal {
 	// metodo por el que debe empezar la ejecución ..
 	public static void main(String[] args) {
 		
-		 * Persona persona; persona = new Persona();
-		 * 
-		 * persona.setNombre("Manolo"); System.out.println("nif : " + persona.getNif());
-		 * System.out.println("nombre : " + persona.getNombre());
-		 * System.out.println("altura : " + persona.getAltura());
-		 * System.out.println("persona1 creada");
+/*	//	  Persona persona; persona = new Persona();
+		  
+		  persona.setNombre("Manolo"); System.out.println("nif : " + persona.getNif());
+		  System.out.println("nombre : " + persona.getNombre());
+		  System.out.println("altura : " + persona.getAltura());
+		  System.out.println("persona1 creada");
 		 
 		
-		 * Persona padre = new Persona(); padre.setNombre("JorgePadre");
-		 * padre.setSexo('M'); Persona madre = new Persona();
-		 * madre.setNombre("MariaMadre"); madre.setNif("44567981H"); madre.setSexo('F');
+		  Persona padre = new Persona(); padre.setNombre("JorgePadre");
+		  padre.setSexo('M'); Persona madre = new Persona();
+		  madre.setNombre("MariaMadre"); madre.setNif("44567981H"); madre.setSexo('F');
 		 
 
 		
-		 * Persona persona2 = new Persona("43897124R", "PEPE", 'F', LocalDate.of(1999,
-		 * 9, 21), 170, padre, madre); System.out.println("persona2 creada");
-		 * System.out.println("Nombre madre : " + persona2.getMadre().getNombre());
+		  Persona persona2 = new Persona("43897124R", "PEPE", 'F', LocalDate.of(1999,
+		  9, 21), 170, padre, madre); System.out.println("persona2 creada");
+		  System.out.println("Nombre madre : " + persona2.getMadre().getNombre());*/
 		 
 		// crear un Estudiante
 
@@ -69,18 +69,18 @@ public class Principal {
 		String[] meses = { "ENE", "FEB", "MAR", "ABR", "MAY", "JUN", "JUL", "AGO", "SEP", "OCT", "NOV", "DIC" };
 
 		
-		 * int isla=2; int mes =7; System.out.println("Visitantes en "+ islas[isla]
-		 * +" : " + practicas.visitantesIslaYear(isla, visitantesYear));
-		 * System.out.println("Visitantes  en Canarias en el mes " + meses[mes]+ " : " +
-		 * practicas.visitantesMesYear(mes, visitantesYear));
+		 int isla=2; int mes =7; System.out.println("Visitantes en "+ islas[isla]
+		 +" : " + practicas.visitantesIslaYear(isla, visitantesYear));
+		  System.out.println("Visitantes  en Canarias en el mes " + meses[mes]+ " : " +
+		  practicas.visitantesMesYear(mes, visitantesYear));
 		 
 
 		
-		 * String[] misDatos = { "123","abc", "345", "1x2", "990" }; //int[] res =
-		 * practicas.convierteCadenasANumeros(misDatos); float saldo= 1000.0f; float[]
-		 * movimientos= {10.0f, -5.0f,20.5f};
-		 * 
-		 * float saldoFinal = practicas.calculaSaldo(saldo, movimientos);
+		  String[] misDatos = { "123","abc", "345", "1x2", "990" }; //int[] res =
+		  practicas.convierteCadenasANumeros(misDatos); float saldo= 1000.0f; float[]
+		 movimientos= {10.0f, -5.0f,20.5f};
+		  
+		  float saldoFinal = practicas.calculaSaldo(saldo, movimientos);
 		 
 		int[] datos = practicas.generaAleatorios3(500, 1, 500);
 		// practicas.ordenaEnteros(datos);
@@ -137,4 +137,3 @@ public class Principal {
 	}
 
 }
-*/

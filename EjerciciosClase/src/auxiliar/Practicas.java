@@ -208,10 +208,20 @@ public class Practicas {
 				}
 	}
 
+	
+	  public float calculaSaldo(float saldoInicial, float[] movimientos) {
+			float saldoFinal = saldoInicial;
+			for (int i = 0; i < movimientos.length; i++)
+				saldoFinal += movimientos[i];
+			return saldoFinal;
+		}
+	  
 	public float calculaSaldo(float saldoInicial, ArrayList<Float> movimientos) {
 		float saldoFinal = saldoInicial;
-		for (int i = 0; i < movimientos.size(); i++)
-			saldoFinal += movimientos.get(i);
+		for (Float movimientos1 : movimientos) { 
+			saldoFinal += movimientos1;
+		}
+			
 		return saldoFinal;
 	}
 
