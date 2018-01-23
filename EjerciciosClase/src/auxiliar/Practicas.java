@@ -219,7 +219,7 @@ public class Practicas {
 	public float calculaSaldo(float saldoInicial, ArrayList<Float> movimientos) {
 		float saldoFinal = saldoInicial;
 		for (Float movimientos1 : movimientos) { 
-			saldoFinal += movimientos1;
+			saldoFinal += movimientos1 ;
 		}
 			
 		return saldoFinal;
